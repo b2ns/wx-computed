@@ -1,0 +1,26 @@
+{
+  "name": "wx-computed",
+  "version": "1.0.0",
+  "description": "几乎照搬vue源码为小程序增加computed和watch特性",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b2ns/wx-computed.git"
+  },
+  "keywords": [
+    "wx",
+    "小程序",
+    "computed",
+    "watch",
+    "计算属性"
+  ],
+  "author": "b2ns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b2ns/wx-computed/issues"
+  },
+  "homepage": "https://github.com/b2ns/wx-computed#readme"
+}
