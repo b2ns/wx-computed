@@ -1,5 +1,5 @@
 {
-  "name": "wx-computed",
+  "name": "wx-computed2",
   "version": "1.0.0",
   "description": "几乎照搬vue源码为小程序增加computed和watch特性",
   "main": "index.js",
