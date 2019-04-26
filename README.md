@@ -6,7 +6,7 @@
 这里配合[wx-wrapper](https://github.com/b2ns/wx-wrapper)来进行演示，推荐使用这种方式进行全局引入
 ```javascript
 import wrapper from 'wx-wrapper';
-import computed from 'wx-computed';
+import computed from 'wx-computed2';
 
 // 一次性为所有页面和组件引入该功能
 wrapper({
