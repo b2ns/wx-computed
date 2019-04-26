@@ -6,20 +6,20 @@
 这里配合[wx-wrapper](https://github.com/b2ns/wx-wrapper)来进行演示，推荐使用这种方式进行全局引入
 ```javascript
 import wrapper from 'wx-wrapper';
-import wxComputed from 'wx-computed';
+import computed from 'wx-computed';
 
 // 一次性为所有页面和组件引入该功能
 wrapper({
     Page: {
         onLoad() {
-            wxComputed(this);
+            computed(this);
         }
     },
     Component: {
         attached(rawObj) {
             // 由于小程序限制, 自定义属性需手动绑定
             ['computed', 'watch'].forEach(v => this[v] = rawObj[v]);
-            wxComputed(this);
+            computed(this);
         }
     }
 });
@@ -39,7 +39,7 @@ Page({
     },
     onLoad() {
         // 不推荐这样引入，太麻烦
-        wxComputed(this);
+        computed(this);
     }
 
 });
